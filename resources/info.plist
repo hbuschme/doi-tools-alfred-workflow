@@ -104,7 +104,7 @@
 	<key>createdby</key>
 	<string>Hendrik Buschmeier</string>
 	<key>description</key>
-	<string>DOI workflow for Alfred</string>
+	<string>Alfred workflow for DOI queries and actions</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -364,16 +364,16 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string># ‘DOI Tools’ Alfred Workflows
+	<string># ‘DOI Tools’ Alfred Workflow
 
-This toolbox offers four DOI workflows for Alfred: doibib, doiresolve, doishort
+This toolbox offers four keyword triggered [Alfred](http://www.alfredapp.com/) workflows for DOI queries and actions: doibib, doilink, doiresolve, and doishort
 
 
 ## doibib
 
 Queries citation information (in BibTeX format) for the resource associated with the specified DOI. Upon success, a notification is shown and the BibTeX record is copied to the clipboard.
 
-For more information see http://www.crossref.org/CrossTech/2011/11/turning_dois_into_formatted_ci.html
+For more information visit http://www.crossref.org/CrossTech/2011/11/turning_dois_into_formatted_ci.html
 
 
 ## doilink

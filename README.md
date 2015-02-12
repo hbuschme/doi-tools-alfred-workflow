@@ -1,6 +1,6 @@
 # ‘DOI Tools’ Alfred Workflow
 
-This toolbox offers four DOI workflows for [Alfred](http://www.alfredapp.com/): doibib, doiresolve, doishort
+This toolbox offers four keyword triggered [Alfred](http://www.alfredapp.com/) workflows for DOI queries and actions: doibib, doilink, doiresolve, and doishort
 
 
 ## doibib
