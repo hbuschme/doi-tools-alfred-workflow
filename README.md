@@ -1,4 +1,4 @@
-# ‘DOI Tools’ Alfred Workflows
+# ‘DOI Tools’ Alfred Workflow
 
 This toolbox offers four DOI workflows for Alfred: doibib, doiresolve, doishort
 
@@ -7,7 +7,7 @@ This toolbox offers four DOI workflows for Alfred: doibib, doiresolve, doishort
 
 Queries citation information (in BibTeX format) for the resource associated with the specified DOI. Upon success, a notification is shown and the BibTeX record is copied to the clipboard.
 
-For more information see http://www.crossref.org/CrossTech/2011/11/turning_dois_into_formatted_ci.html
+For more information visit http://www.crossref.org/CrossTech/2011/11/turning_dois_into_formatted_ci.html
 
 
 ## doilink
