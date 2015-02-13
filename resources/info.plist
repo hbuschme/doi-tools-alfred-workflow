@@ -12,7 +12,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>8BD5B0AD-1D9B-454F-97FC-9596AF0B868A</string>
+				<string>4C4154B4-D25F-4191-8F81-745E63F478BD</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -79,8 +79,6 @@
 				<string></string>
 			</dict>
 		</array>
-		<key>8BD5B0AD-1D9B-454F-97FC-9596AF0B868A</key>
-		<array/>
 		<key>914C1DF2-DE3D-473A-B20B-D5CCAAAC2A11</key>
 		<array>
 			<dict>
@@ -348,17 +346,17 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>plusspaces</key>
-				<false/>
-				<key>url</key>
-				<string>http://dx.doi.org/{query}</string>
-				<key>utf8</key>
-				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>python -m webbrowser -t "https://dx.doi.org/{query}"</string>
+				<key>type</key>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>8BD5B0AD-1D9B-454F-97FC-9596AF0B868A</string>
+			<string>4C4154B4-D25F-4191-8F81-745E63F478BD</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -420,6 +418,11 @@ For more information visit http://shortdoi.org/</string>
 			<key>ypos</key>
 			<real>570</real>
 		</dict>
+		<key>4C4154B4-D25F-4191-8F81-745E63F478BD</key>
+		<dict>
+			<key>ypos</key>
+			<real>720</real>
+		</dict>
 		<key>5B987106-B7F0-4C2B-9104-CC546C28390D</key>
 		<dict>
 			<key>ypos</key>
@@ -439,11 +442,6 @@ For more information visit http://shortdoi.org/</string>
 		<dict>
 			<key>ypos</key>
 			<real>130</real>
-		</dict>
-		<key>8BD5B0AD-1D9B-454F-97FC-9596AF0B868A</key>
-		<dict>
-			<key>ypos</key>
-			<real>720</real>
 		</dict>
 		<key>914C1DF2-DE3D-473A-B20B-D5CCAAAC2A11</key>
 		<dict>
